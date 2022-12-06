@@ -7,11 +7,13 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Project';
 import { useEffect } from 'react';
+import Aos from 'aos';
 
 const App = () => {
   const { pathname } = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0)
+    Aos.init()
   }, [pathname])
   return(
 

@@ -1,6 +1,7 @@
 import styles from "../style";
 import { discount, robot } from "../assets";
 import GetStarted from "./GetStarted";
+import Typical from "react-typical";
 
 const Hero = () => {
   return (
@@ -28,9 +29,16 @@ const Hero = () => {
           Intelligence
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our team of experts uses a methodology to identify the credit cards
-          most likely to fit your needs. We examine annual percentage rates,
-          annual fees.
+          <Typical
+            wrapper="p"
+            steps={[
+              `We nurture humanity’s potential,
+               to become the most resilient
+               and compassionate civilization in history.`,
+               3000,
+            ]}
+            loop={1}
+            />
         </p>
       </div>
 

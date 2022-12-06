@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 const GetStarted = () => (
   <Link to={"/contact"}>
     <div
+    data-aos='zoom-in'
       className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient2 p-[2px] cursor-pointer`}
     >
       <div

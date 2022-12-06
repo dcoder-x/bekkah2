@@ -6,6 +6,7 @@ import Button from "./Button";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
+    data-aos='fade-left'
     className={` w-2/3 flex justify-between align-middle flex-row p-1 rounded-[20px] ${
       styles.flexCenter
     } ${index !== services.length - 1 ? "mb-6" : "mb-0"} feature-card`}

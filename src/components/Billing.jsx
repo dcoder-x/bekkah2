@@ -10,6 +10,7 @@ const Billing = () => (
         src={group}
         alt="billing"
         className="w-[60%]  relative z-[5]"
+        data-aos='fade-down'
       />
 
       {/* gradient start */}
@@ -18,7 +19,7 @@ const Billing = () => (
       {/* gradient end */}
     </div>
 
-    <div className={layout.sectionInfo}>
+    <div className={layout.sectionInfo} data-aos='fade-up'>
       <h2 className={styles.heading2}>
         Here are some of <br className="sm:block hidden" /> our own Projects
       </h2>

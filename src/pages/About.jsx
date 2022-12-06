@@ -69,6 +69,9 @@ const About = () => {
             return (
               <div
                 key={i}
+                data-aos-offset="-1500"
+                data-aos-duration="500"
+                data-aos={i%2?'fade-left':'fade-right'}
                 className={` rounded-sm font-poppins text-black  sm:w-2/5 w-4/5 p-4 my-6 mx-1  bg-white `}
               >
                 <Icon icon={value.icon} width={50} color={"#0085FF"} />
