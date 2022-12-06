@@ -13,8 +13,12 @@ import {
   send,
   shield,
   star,
+  project1,
+  project2,
+  project3,
 } from "../assets";
 
+// I should organize this better
 export const navLinks = [
   {
     link: "/",
@@ -33,11 +37,33 @@ export const navLinks = [
     title: "Partners",
   },
   {
+    link: "/projects",
+    title: "Projects",
+  },
+  {
     link: "/contact",
     title: "Contact us",
   },
 ];
 
+//projects
+export const projects = [
+  {
+    title: "Can you stop the ad?",
+    img: project1,
+    desc: "CYSTADS (Can You Stop The Ads). This is an Educative historical paying game with the aim to educate young Nigerians about their rich history. We made it a paying game because as a Social enterprise one of our roles is to help people in ways we can and in this case we decided to utilize an Historical paying game to cushion the effect of the inflation in the Nation. Button with learnmore (link to cystads.bekkahai.io)",
+  },
+  {
+    title: "Preyes",
+    img: project2,
+    desc: "Pryeyes. Pryeyes is a data gathering project from and for the open market. In Africa especially sub-Saharan Africa majority of the population get their commodities from the open market, which makes that part of the micro economy one of the most essential back bone of majority of the economies in Sub Saharan Africa. When Covid19 hit in 2020 and lockdown was enforced, it became very difficult for families to survive without flunking the lockdown rules and if the virus was terrible as it was projected by the mass media in the western world a lot of people would have lost their lives not just their livelihood. This app will help people automate their open market shopping process.",
+  },
+  {
+    title: "Skill pay",
+    img: project3,
+    desc: "Skillpay. This a simple project by Bekkah that trains and givedigital gigs to Developers. Currently we have a network of over 30 programmers with different specialties. We want to create a digital workspace for techies where we source for projects from Nations Abroad especially in the west and contract African programmers. The purpose of this is to let people abroad because of forex access an affordable and efficient digitally skilled community, and also for easy payment of the youths involved. We just want to bridge the gap between programmers and companies/individuals in the western world in search of skilled programmers that are affordable and want guarantee that they won’t be scammed.",
+  },
+];
 export const coreValues = [
   {
     title: "Courage",
@@ -46,11 +72,13 @@ export const coreValues = [
   },
   {
     title: "Resillence",
-    content: "In the wise words of Friedrich Nietzsche “He who has a “why” to live for can bear almost any “how””. The future no matter how pretty it is mask some really tough path but with our 'whys' we can resiliently withstand the pressures and the ugly path of the 'hows'. ",
+    content:
+      "In the wise words of Friedrich Nietzsche “He who has a “why” to live for can bear almost any “how””. The future no matter how pretty it is mask some really tough path but with our 'whys' we can resiliently withstand the pressures and the ugly path of the 'hows'. ",
   },
   {
     title: "Integrity",
-    content: " Integrity is the seed for achievement. It is the principle that never fails. We know this and we ensure that we keep this at the back of our mind in whatever role we execute. We maintain this universal principle that never fails.",
+    content:
+      " Integrity is the seed for achievement. It is the principle that never fails. We know this and we ensure that we keep this at the back of our mind in whatever role we execute. We maintain this universal principle that never fails.",
   },
   {
     title: "Tenancity",
@@ -71,19 +99,19 @@ export const contacts = [
   {
     icon: "material-symbols:perm-phone-msg",
     title: "Phone",
-    contact:'+234 70657578'
+    contact: "+234 70657578",
   },
   {
     icon: "ic:round-mail-outline",
     title: "E-mail",
-    contact:'Info@bekkah.io'
+    contact: "Info@bekkah.io",
   },
   {
     icon: "material-symbols:location-on-rounded",
     title: "Address",
-    contact:'Lagos, Nigeria'
+    contact: "Lagos, Nigeria",
   },
-]
+];
 export const services = [
   {
     id: "feature-3",
@@ -176,52 +204,56 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Quick Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Home",
+        link: "/",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "About",
+        link: "/about",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "Services",
+        link: "/services",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: "Projects",
+        link: "/projects",
       },
       {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "Contact",
+        link: "/contact",
       },
+      // {
+      //   name: "Partners",
+      //   link: "/partners",
+      // },
     ],
   },
   {
     title: "Community",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: "Contact us",
+        link: "/contact",
       },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
+      // {
+      //   name: "Partners",
+      //   link: "https://www.hoobank.com/partners/",
+      // },
+      // {
+      //   name: "Suggestions",
+      //   link: "https://www.hoobank.com/suggestions/",
+      // },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        link: "/blog/",
       },
       {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        name: "Media",
+        link: "/media",
       },
     ],
   },
@@ -229,12 +261,12 @@ export const footerLinks = [
     title: "Partner",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Our Partners",
+        link: "/partner/",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "/partner/",
       },
     ],
   },

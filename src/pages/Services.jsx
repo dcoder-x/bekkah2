@@ -1,6 +1,6 @@
 import React from "react";
 import PageHeader from "../components/PageHeader";
-import { bg } from "../assets";
+import { bg, services as servicebg } from "../assets";
 import styles from "../style";
 import { services } from "../constants";
 import { Icon } from "@iconify/react";
@@ -8,7 +8,7 @@ import { Icon } from "@iconify/react";
 const Services = () => {
   return (
     <main id="services">
-      <PageHeader bgImage={bg} pageTitle={"Services"} />
+      <PageHeader bgImage={servicebg} pageTitle={"Services"} />
       <section
         className={`services align-middle justify-center bg-offwhite py-10 w-full flex-col ${styles.flexCenter} `}
       >

@@ -1,0 +1,75 @@
+#projects{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#projects .project{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(25 24 24);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 3rem 0;
+}
+/* #projects .project:nth-of-type(2){
+    flex-direction: row-reverse;
+} */
+#projects .project .title{
+    font-size: 50px;
+    margin: 2rem 0;
+    line-height: 1;
+    color: rgb(85, 204, 255);
+}
+#projects .project .desc{
+    width: 90%;
+    color: white;
+}
+.project-text{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#projects .project img{
+    width: 25%;
+    /* max-height: 40vh; */
+}
+#projects .book{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+    padding: 4rem 0;
+}
+#projects .book button{
+    background-color:rgb(85, 181, 255) ;
+    color: white;
+    font-size: 20px;
+}
+@media screen and (max-width:800px) {
+    #projects .project{
+        flex-direction: column-reverse !important;
+        padding: 1rem 2rem;
+    }
+    #projects .project img{
+        width: 100%;
+        border-radius: 1rem;
+    }
+    #projects .project .title{
+        text-align: center;
+        font-size: 30px;
+        width: 90%;
+    }
+    .project-text{
+        width: 100%;
+    }
+    #projects .book{
+        font-size: 30px;
+    }
+}

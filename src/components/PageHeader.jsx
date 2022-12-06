@@ -6,7 +6,7 @@ const PageHeader = ({ pageTitle, bgImage }) => {
     <div
       className={` w-full lg:h-36 flex-col justify-center ${styles.flexCenter}`}
       style={{
-        background: `linear-gradient(0deg, rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)), url(${bgImage})`,
+        background: `linear-gradient(0deg, rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url(${bgImage})`,
         backgroundSize:"cover",
         backgroundPosition:'center',
         backgroundRepeat:'no-repeat',

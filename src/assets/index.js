@@ -6,11 +6,18 @@ import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import bg from './bg1.png'
 import contact from './contact.png'
+import aboutus from './about.jpg'
+import services from './services.jpg'
+import projectsbg from './projectsbg.jpg'
 import contactus from './contactus.png'
 import about from './about.png'
 import logo from "./3.png";
 import quotes from "./quotes.svg";
+import group from "./group.png";
 import robot from "./hero2.png";
+import project1 from "./cystad.png";
+import project2 from "./project2.png";
+import project3 from "./project3.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -29,8 +36,14 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 
 export {
+  projectsbg,
   contactus,
+  group,
   about,
+  services,
+  project1,
+  project2,
+  project3, 
   airbnb,
   bill,
   binance,
@@ -40,6 +53,7 @@ export {
   logo,
   bg,
   contact,
+  aboutus,
   quotes,
   robot,
   send,

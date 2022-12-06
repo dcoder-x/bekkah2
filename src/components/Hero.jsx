@@ -9,15 +9,15 @@ const Hero = () => {
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white text-lg">Bekkah{' '}</span> <span className=" mx-1 text-xl text-gradient2"> Artificial{" "}</span> 
-            <span className="text-white text-lg">Intelligence</span>
+            <span className="text-white text-lg">We are {' '}</span> <span className=" mx-1 text-xl text-gradient2"> The Voice{" "}</span> 
+            <span className="text-white text-lg">From The Future</span>
           </p>
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            We Are <br className="sm:block hidden" />{" "}
-            <span className="text-gradient2">The Voice</span>{" "}
+            Bekkah <br className="sm:block hidden" />{" "}
+            <span className="text-gradient2">Artificial</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          From The Future.
+          Intelligence
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Our team of experts uses a methodology to identify the credit cards

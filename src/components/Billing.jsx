@@ -1,4 +1,5 @@
-import { apple, bill, google } from "../assets";
+import { Link } from "react-router-dom";
+import { apple, bill, google, group } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
@@ -6,9 +7,9 @@ const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img
-        src={bill}
+        src={group}
         alt="billing"
-        className="w-[100%] h-[100%] relative z-[5]"
+        className="w-[60%]  relative z-[5]"
       />
 
       {/* gradient start */}
@@ -39,7 +40,9 @@ const Billing = () => (
       </ul>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-        <Button text={'Learn more'} />
+      <Link to={'/projects'}>
+        <Button text={"Learn more"} styles={`mt-10 bg-gradient2`} />
+      </Link>
       </div>
     </div>
   </section>

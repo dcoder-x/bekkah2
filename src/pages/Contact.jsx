@@ -88,7 +88,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
-      <div
+      {/* <div
         className={` w-full lg:h-36 flex-col justify-center ${styles.flexCenter}`}
         style={{
           background: `linear-gradient(0deg,  rgba(0, 163, 255, 0.53), rgba(0, 163, 255, 0.53)), url(${bg})`,
@@ -105,7 +105,7 @@ const Contact = () => {
           Bekkah <p className="text-gradient2 ml-1">AI</p>
         </p>
         <Button styles={'mt-5'} text={'contact us'}/>
-      </div>
+      </div> */}
     </main>
   );
 };
