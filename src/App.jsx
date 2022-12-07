@@ -23,8 +23,8 @@ const App = () => {
         <div className={'mt-20'}>
           <Routes>
             <Route index path='/' element={<Home/>} />
-            <Route index path='/services' element={<Services/>} />
             <Route index path='/about' element={<About/>} />
+            <Route index path='/services' element={<Services/>} />
             <Route index path='/contact' element={<Contact/>} />
             <Route index path='/projects' element={<Projects/>} />
           </Routes>
