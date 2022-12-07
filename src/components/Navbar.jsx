@@ -36,7 +36,7 @@ const Navbar = () => {
 
         <div
           className={`${
-            !toggle ? "hidden" : "flex"
+            !toggle ? "hidden" : "fixed"
           } p-6 bg-black-gradient fixed top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
