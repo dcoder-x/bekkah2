@@ -4,7 +4,7 @@ import styles from "../style";
 const PageHeader = ({ pageTitle, bgImage }) => {
   return (
     <div
-      className={` w-full lg:h-36 flex-col justify-center ${styles.flexCenter}`}
+      className={` w-full lg:h-40 flex-col justify-center ${styles.flexCenter}`}
       style={{
         background: `linear-gradient(0deg, rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url(${bgImage})`,
         backgroundSize:"cover",

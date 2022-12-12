@@ -1,0 +1,129 @@
+#partners{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 6rem; */
+    padding: 2rem 0;
+    top: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+#partners .join{
+    width: 100%;
+}
+#partners .join{
+    background: linear-gradient(94.77deg, #48B760 0%, #6BB748 100%);
+}
+.become .text .title{
+    color: white !important;
+}
+#partners .become button{
+    background: white !important;
+    color: #2b7a3c !important;
+}
+#partners .become .image img{
+    border-radius: 50px 0px 50px 20px;
+}
+#partners .partners{
+    width: 100%;
+    margin: 3rem 0;
+}
+#partners .partners h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+#partners .partners-list{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#partners .partners-list .partner{
+    width: 30%;
+    background: #ffffff;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+    justify-content: space-evenly;
+    min-height: 300px;
+    margin: 3rem;
+}
+#partners .partner-name{
+    font-size: 30px;
+    font-weight: 700;
+}
+#partners .icon{
+    width: 30%;
+    margin: 1rem 0;
+}
+#partners .icon img{
+    width: 100%;
+}
+#partners .contract{
+    text-align: center;
+    width: 90%;
+    color: rgb(61, 61, 61);
+}
+#partners .form{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2b7a3c6f;
+    background: url(../assets/images/bgfarm.png);
+    background-position: center;
+    background-size: cover;
+}
+#partners form{
+    width: 40%;
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    margin: 4rem 0;
+}
+#partners form .field{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+}
+#partners form input, select{
+  height: 30px;
+  width: 100%;
+  padding: 1rem;
+  background: #f2f2f2;
+  border-radius: 34px;
+  border: none;
+  /* width: 80%; */
+  margin: 0.5rem 0;
+}
+form  select{
+    height: auto !important;
+}
+#partners form button{
+    border-radius: 1rem 0 1rem 1rem;
+    width: 40%;
+    margin: 2rem 0;
+}
+#partners form .message {
+    min-height: 7rem;
+}
+
+@media screen and (max-width:800px) {
+    #partners form{
+        width: 80%;
+    }
+    #partners .partners-list .partner{
+        width: 80%;
+    }
+}
+

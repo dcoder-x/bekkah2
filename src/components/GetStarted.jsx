@@ -3,7 +3,7 @@ import { arrowUp } from "../assets";
 import { Link } from "react-router-dom";
 
 const GetStarted = () => (
-  <Link to={"/contact"}>
+  <Link to={"/about"}>
     <div
     data-aos='zoom-in'
       className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-blue-gradient2 p-[2px] cursor-pointer`}
@@ -13,7 +13,7 @@ const GetStarted = () => (
       >
         <div className={`${styles.flexStart} flex-row`}>
           <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
-            <span className="text-gradient2">Get</span>
+            <span className="text-gradient2">Learn</span>
           </p>
           <img
             src={arrowUp}
@@ -23,7 +23,7 @@ const GetStarted = () => (
         </div>
 
         <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
-          <span className="text-gradient2">Started</span>
+          <span className="text-gradient2">more</span>
         </p>
       </div>
     </div>

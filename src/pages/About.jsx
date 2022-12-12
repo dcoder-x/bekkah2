@@ -36,7 +36,7 @@ const About = () => {
           <div
             className={` sm:text-left flex flex-col sm:flex-row justify-between my-5`}
           >
-            <div className="my-10 sm:w-2/5 sm:my-0">
+            <div className="my-10 sm:w-2/5 sm:my-0" data-aos={'fade-right'} >
               <h1 className={`text-gradient2 text-xl font-normal sm:my-3`}>
                 Our Mission
               </h1>
@@ -46,7 +46,7 @@ const About = () => {
                 technology for an easy and safe life on this planet and beyond
               </p>
             </div>
-            <div className="my-10 sm:w-2/5 sm:my-0">
+            <div className="my-10 sm:w-2/5 sm:my-0" data-aos={'fade-left'}>
               <h1 className={`text-gradient   text-xl font-normal sm:my-3`}>
                 Our Vision
               </h1>
@@ -63,8 +63,8 @@ const About = () => {
       <section
         className={`flex-col flex bg-offwhite w-full py-10 ${styles.flexCenter} `}
       >
-        <h1 className="text-2xl font-bold">Our Core Values</h1>
-        <ul className=" w-5/6 sm:w-3/4 text-justify p-1 md:p-5 justify-between flex flex-row flex-wrap list-none">
+        <h1 className="text-2xl font-bold">Our Core Values (C.R.I.T.S)</h1>
+        <ul className=" w-full contents sm:w-3/4 text-justify p-1 md:p-5 justify-between sm:flex flex-row flex-wrap list-none">
           {coreValues.map((value, i) => {
             return (
               <div

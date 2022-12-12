@@ -16,6 +16,9 @@ import {
   project1,
   project2,
   project3,
+  classiclogo,
+  morelogo,
+  dashlogo,
 } from "../assets";
 
 // I should organize this better
@@ -49,7 +52,7 @@ export const navLinks = [
 //projects
 export const projects = [
   {
-    title: "Can you stop the ad?",
+    title: "CYSTADS",
     img: project1,
     desc: "CYSTADS (Can You Stop The Ads). This is an Educative historical paying game with the aim to educate young Nigerians about their rich history. We made it a paying game because as a Social enterprise one of our roles is to help people in ways we can and in this case we decided to utilize an Historical paying game to cushion the effect of the inflation in the Nation. Button with learnmore (link to cystads.bekkahai.io)",
   },
@@ -118,42 +121,42 @@ export const services = [
     icon: "fluent-mdl2:website",
     title: "Website development",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Bill Gates once said “If your business is not on the Internet, then your business will be out of business”. We started our tech journey some years ago by just fixing websites for businesses to increase their visibility online. Currently we have a team of UIUX designers and Front end developers whose goals are to make your business visibility a priority. We typically deliver a custom website to Clients in less than Seven days. Talk with us today to get your website up",
   },
   {
     id: "feature-1",
     icon: "carbon:application-mobile",
     title: "Mobile development",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Web and Mobile Application development. Do you have any idea that needs an application, either web based or mobile talk to us today. With over 40years cumulative experience in the tech space we will turn that idea into a reality in no time.",
   },
   {
     id: "feature-2",
     icon: "icon-park-twotone:blockchain",
     title: "Block chain development",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "After conquering the Web2 space we stated honing our skills for the future of the internet which is web3. It will be a great pleasure for us to help you create applications powered by blockchain.",
   },
   {
     id: "feature-3",
     icon: "iconoir:design-nib",
     title: "Graphic design",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "We have a large interest in branding businesses and even individuals. Hence the need for Skillful graphic designers. We have a team of designers that can help you make you design goals a reality. From logos to flyers to even billboard designs nothing is left off the table. We can help you transform the face of your business in no time. Talk to us today",
   },
   {
     id: "feature-3",
     icon: "mdi:animation-play",
     title: "Animation",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "What is story telling without a little animation, besides beading your business with logos, flyers and the likes we have skilled and seasoned animators who can make your story telling apt with awesome animations.",
   },
   {
     id: "feature-3",
     icon: "ph:globe-bold",
     title: "Social media management",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Social Media is a great conversion tool for your business and that’s why we have decided to help businesses and individuals achieve their goal of reaching prospects, converting them into customers and retaining them.",
   },
 ];
 
@@ -188,17 +191,20 @@ export const stats = [
   {
     id: "stats-1",
     title: "Projects",
-    value: "4",
+    value: "3",
+    link: "/projects",
   },
   {
     id: "stats-2",
     title: "Services rendered",
     value: "30+",
+    link: "/services",
   },
   {
     id: "stats-3",
     title: "Partners",
     value: "5+",
+    link: "/partners",
   },
 ];
 
@@ -313,3 +319,31 @@ export const clients = [
     logo: dropbox,
   },
 ];
+
+export const partnersinfo = [
+    {
+      name:'Classic Empire',
+      desc:'',
+      logo:classiclogo,
+      website:''
+    },
+    {
+      name:'More branches',
+      desc:'',
+      logo:morelogo,
+      website:''
+    },
+
+        {
+      name:'Dash deliveries',
+      desc:'',
+      logo:dashlogo,
+      website:''
+    },
+    // {
+    //   name:'Classic Empire',
+    //   desc:'',
+    //   logo:'',
+    //   website:''
+    // },
+]

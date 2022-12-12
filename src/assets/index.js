@@ -5,9 +5,10 @@ import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import bg from './bg1.png'
-import contact from './contact.png'
-import aboutus from './about.jpg'
-import services from './services.jpg'
+import contact from './contact.jpg'
+import aboutus from './aboutus.jpg'
+import partners from './partners.jpg'
+import services from './service.jpg'
 import projectsbg from './projectsbg.jpg'
 import contactus from './contactus.png'
 import about from './about.png'
@@ -30,6 +31,10 @@ import discount from "./Discount.svg";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
+import classiclogo from './Classicempire.png'
+import morelogo from './morebranches.png'
+
+import dashlogo from './DASHLOGISTICS.png'
 import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
@@ -37,8 +42,12 @@ import people03 from "./people03.png";
 
 export {
   projectsbg,
+  morelogo,
+  classiclogo,
+  dashlogo,
   contactus,
   group,
+  partners,
   about,
   services,
   project1,

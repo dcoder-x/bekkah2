@@ -24,13 +24,13 @@ const Projects = () => {
       </div>
       {projects.map((project,i) => {
         return (
-          <section className="project" data-aos={i%2?'fade-left':'fade-right'}>
-            <div className=" w-2/3">
+          <section className="project w-full p-0 sm:p-8 " data-aos={i%2?'fade-left':'fade-right'}>
+            <div className=" w-full sm:w-2/3">
               <div className="title text-lg">{project.title}</div>
-              <p className="desc text-xs text-justify">{project.desc}</p>
+              <p className="desc w-full text-xs text-justify">{project.desc}</p>
             </div>
 
-            <img src={project.img} alt="project picture" />
+            <img src={project.img} className={`w-1/2 sm:w-1/4`} alt="project picture" />
           </section>
         );
       })}

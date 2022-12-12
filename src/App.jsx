@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import Projects from './pages/Project';
 import { useEffect } from 'react';
 import Aos from 'aos';
+import Partners from './pages/Partners';
 
 const App = () => {
   const { pathname } = useLocation();
@@ -27,6 +28,7 @@ const App = () => {
             <Route index path='/services' element={<Services/>} />
             <Route index path='/contact' element={<Contact/>} />
             <Route index path='/projects' element={<Projects/>} />
+            <Route index path='/partners' element={<Partners/>} />
           </Routes>
         </div>
 

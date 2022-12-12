@@ -13,7 +13,7 @@
     justify-content: space-evenly;
     background-color: rgb(25 24 24);
     border-radius: 1rem;
-    padding: 2rem;
+    /* padding: 2rem; */
     margin: 3rem 0;
 }
 /* #projects .project:nth-of-type(2){
@@ -36,8 +36,8 @@
     flex-direction: column;
 }
 #projects .project img{
-    width: 25%;
-    /* max-height: 40vh; */
+    /* width: 25%;
+    max-height: 40vh; */
 }
 #projects .book{
     display: flex;
@@ -55,11 +55,12 @@
 @media screen and (max-width:800px) {
     #projects .project{
         flex-direction: column-reverse !important;
-        padding: 1rem 2rem;
+        padding: 1rem 0rem;
+        align-items: center;
     }
     #projects .project img{
-        width: 100%;
-        border-radius: 1rem;
+        /* width: 100%;
+        border-radius: 1rem; */
     }
     #projects .project .title{
         text-align: center;
@@ -67,6 +68,9 @@
         width: 90%;
     }
     .project-text{
+        width: 100%;
+    }
+    #projects .project .desc{
         width: 100%;
     }
     #projects .book{
