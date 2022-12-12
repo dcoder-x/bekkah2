@@ -6,10 +6,10 @@ import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import bg from './bg1.png'
 import contact from './contact.jpg'
-import aboutus from './aboutus.jpg'
-import partners from './partners.jpg'
+import aboutus from './digital.jpg'
+import partners from './ai.jpg'
 import services from './service.jpg'
-import projectsbg from './projectsbg.jpg'
+import projectsbg from './data.jpg'
 import contactus from './contactus.png'
 import about from './about.png'
 import logo from "./3.png";
