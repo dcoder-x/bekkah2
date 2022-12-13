@@ -10,7 +10,7 @@ import aboutus from './digital.jpg'
 import partners from './ai.jpg'
 import services from './service.jpg'
 import projectsbg from './data.jpg'
-import contactus from './contactus.png'
+import contactus from './contactus.jpg'
 import about from './about.png'
 import logo from "./3.png";
 import quotes from "./quotes.svg";

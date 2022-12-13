@@ -11,7 +11,7 @@ import "../styles/partners.css";
 const Partners = () => {
   return (
     <main id="partners">
-      <PageHeader bgImage={partners} pageTitle={"Contact Us"} />
+      <PageHeader bgImage={partners} pageTitle={"Partners"} />
       <section
         className={`partners align-middle justify-center py-10 w-full flex-col ${styles.flexCenter} `}
       >
@@ -26,20 +26,17 @@ const Partners = () => {
                 data-aos={i % 2 ? "fade-left" : "fade-right"}
                 className={`  rounded-lg font-poppins text-black  sm:w-2/5 w-4/5 p-4 my-6 mx-1  bg-white `}
               >
-                <div className={`w-full flex  pb-5 align-middle ${styles.flexCenter}`}>
-                  <img src={partner.logo} className=' w-4/5' alt="" />
+                <div
+                  className={`w-full flex  pb-5 align-middle ${styles.flexCenter}`}
+                >
+                  <img src={partner.logo} className=" w-4/5" alt="" />
                 </div>
-                <div className="title font-bold my-2">{partner.name}</div>
+                <div className="title text-center font-bold my-2">{partner.name}</div>
                 {/* <div className="icon">
                                     <img src={Icons.star} alt="" />
                                 </div> */}
-                <div className=" text-sm">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
-                  iusto modi sed, expedita reiciendis cumque. Nostrum, vel, nemo
-                  dolore, \ optio quae at tempora possimus et qui adipisci cum
-                  eaque vero.
-                </div>
-                <a href={partner.website}>{partner.website}</a>
+                <div className="  text-sm">{partner.desc}</div>
+                <p className="text-center text-blue-600" onClick={window.open(partner.website)}>{partner.website}</p>
               </div>
             );
           })}

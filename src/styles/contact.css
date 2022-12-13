@@ -21,9 +21,9 @@
     width: 40%;
     display: flex;
     flex-direction: column;
-    background: url(../assets/contactus.png);
+    background: url(../assets/contactus.jpg);
     background-size: cover !important;
-    background-position: center !important;
+    /* background-position: center !important; */
     background-repeat: no-repeat;
     justify-content: space-between;
     text-align: left;

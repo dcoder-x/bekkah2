@@ -282,22 +282,22 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/bekkahai/",
   },
   {
     id: "social-media-2",
     icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/BekkahAI?mibextid=LQQJ4d",
   },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://twitter.com/bekkahi?s=21&t=3-_cjQ3K328y1eGO-2oUCw",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/bekkah-artificial-intelligence/",
   },
 ];
 
@@ -325,20 +325,20 @@ export const partnersinfo = [
       name:'Classic Empire',
       desc:'',
       logo:classiclogo,
-      website:''
+      website:'http://classicempire.org/'
     },
     {
       name:'More branches',
       desc:'',
       logo:morelogo,
-      website:''
+      website:'http://morebranches.com/'
     },
 
         {
       name:'Dash deliveries',
       desc:'',
       logo:dashlogo,
-      website:''
+      website:'http://dashdeliverieslib.com/'
     },
     // {
     //   name:'Classic Empire',
