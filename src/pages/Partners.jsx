@@ -36,7 +36,7 @@ const Partners = () => {
                                     <img src={Icons.star} alt="" />
                                 </div> */}
                 <div className="  text-sm">{partner.desc}</div>
-                <p className="text-center text-blue-600" onClick={window.open(partner.website)}>{partner.website}</p>
+                <p className="text-center text-blue-600 cursor-pointer" onClick={e=>{window.open(partner.website)}}>{partner.website}</p>
               </div>
             );
           })}

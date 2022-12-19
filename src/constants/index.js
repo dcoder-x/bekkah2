@@ -58,12 +58,12 @@ export const projects = [
   },
   {
     title: "Preyes",
-    img: project2,
+    img: project3,
     desc: "Pryeyes. Pryeyes is a data gathering project from and for the open market. In Africa especially sub-Saharan Africa majority of the population get their commodities from the open market, which makes that part of the micro economy one of the most essential back bone of majority of the economies in Sub Saharan Africa. When Covid19 hit in 2020 and lockdown was enforced, it became very difficult for families to survive without flunking the lockdown rules and if the virus was terrible as it was projected by the mass media in the western world a lot of people would have lost their lives not just their livelihood. This app will help people automate their open market shopping process.",
   },
   {
     title: "Skill pay",
-    img: project3,
+    img: project2,
     desc: "Skillpay. This a simple project by Bekkah that trains and givedigital gigs to Developers. Currently we have a network of over 30 programmers with different specialties. We want to create a digital workspace for techies where we source for projects from Nations Abroad especially in the west and contract African programmers. The purpose of this is to let people abroad because of forex access an affordable and efficient digitally skilled community, and also for easy payment of the youths involved. We just want to bridge the gap between programmers and companies/individuals in the western world in search of skilled programmers that are affordable and want guarantee that they won’t be scammed.",
   },
 ];
@@ -245,14 +245,6 @@ export const footerLinks = [
         name: "Contact us",
         link: "/contact",
       },
-      // {
-      //   name: "Partners",
-      //   link: "https://www.hoobank.com/partners/",
-      // },
-      // {
-      //   name: "Suggestions",
-      //   link: "https://www.hoobank.com/suggestions/",
-      // },
       {
         name: "Blog",
         link: "/blog/",
