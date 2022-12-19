@@ -40,7 +40,7 @@ const About = () => {
               <h1 className={`text-gradient2 text-xl font-normal sm:my-3`}>
                 Our Mission
               </h1>
-              <p className={`text-xs font-extralight ${styles.paragraph}`}>
+              <p className={`text-sm font-extralight ${styles.paragraph}`}>
                 To be a leader in the African tech space especially artificial
                 intelligence by automating the future of humanity through
                 technology for an easy and safe life on this planet and beyond
@@ -50,7 +50,7 @@ const About = () => {
               <h1 className={`text-gradient   text-xl font-normal sm:my-3`}>
                 Our Vision
               </h1>
-              <p className={`text-xs font-extralight ${styles.paragraph}`}>
+              <p className={`text-sm font-extralight ${styles.paragraph}`}>
                 We make artificial intelligence become better and save to
                 enhance the future living condition of humans and reduce the
                 risks associated
