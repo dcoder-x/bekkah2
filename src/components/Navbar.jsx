@@ -3,26 +3,64 @@ import { Link } from "react-router-dom";
 
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
+import { Icon } from "@iconify/react";
+import styles from "../style";
+import '../styles/nav.css'
+
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
+  const [isOpen, setisOpen] = useState(false);
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className=" bg-primary z-20 overflow-hidden w-full fixed flex py-6  px-6 justify-between items-center navbar">
+    <nav id="nav" className="  bg-primary z-20 overflow-visible w-full fixed flex py-6  px-6 justify-between items-center navbar">
       <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
 
-      <ul className=" bg-primary z-10 list-none sm:flex hidden justify-end items-center flex-1">
+      <ul className="overflow-visible bg-primary z-10 list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
-          <li
-            key={nav.link}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
-              active === nav.title ? "text-white" : "text-dimWhite"
-            } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
-            onClick={() => setActive(nav.title)}
-          >
-            <a href={`${nav.link}`}>{nav.title}</a>
-          </li>
+          <div className=" overflow-visible">
+            <li
+              key={nav.link}
+              className={`overflow-visible font-poppins font-normal cursor-pointer flex text-[16px] ${
+                styles.flexCenter
+              } ${active === nav.title ? "text-white" : "text-dimWhite"} ${
+                index === navLinks.length - 1 ? "mr-0" : "mr-10"
+              }`}
+              onClick={() => setActive(nav.title)}
+            >
+              <a href={`${nav.link}`}>{nav.title}</a>
+              {nav.sublinks ? (
+                <Icon
+                  icon="ri:arrow-drop-down-line"
+                  onClick={(e) => {
+                    setisOpen(!isOpen);
+                  }}
+                  onMouseEnter={(e) => {
+                    setisOpen(!isOpen);
+                  }}
+                  width={30}
+                />
+              ) : null}
+            </li>
+            {nav.sublinks ? (
+              <div
+                onMouseLeave={(e) => {
+                  setisOpen(false);
+                }}
+                className="sublinks absolute p-6 bg-black-gradient my-2 min-w-[140px] rounded-xl"
+                style={{ height: isOpen ? "auto" : 0 }}
+              >
+                {nav.sublinks.map((sublink) => {
+                  return (
+                    <Link to={"/signin"}>
+                      <p>{sublink.name}</p>
+                    </Link>
+                  );
+                })}
+              </div>
+            ) : null}
+          </div>
         ))}
       </ul>
 
@@ -46,8 +84,9 @@ const Navbar = () => {
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
                   active === nav.title ? "text-white" : "text-dimWhite"
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
-                onClick={() => {setActive(nav.title)
-                  setToggle(false)
+                onClick={() => {
+                  setActive(nav.title);
+                  setToggle(false);
                 }}
               >
                 <Link to={nav.link}>{nav.title}</Link>

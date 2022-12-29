@@ -44,6 +44,24 @@ export const navLinks = [
     title: "Projects",
   },
   {
+    link: "/media",
+    title: "Media",
+    sublinks:[
+      {
+          name:'Blog',
+          link:'/blog',
+      },
+      {
+          name:'Gallery',
+          link:'/gallery',
+      },
+  ]
+  },
+  {
+    link: "/voting",
+    title: "Voting",
+  },
+  {
     link: "/contact",
     title: "Contact us",
   },

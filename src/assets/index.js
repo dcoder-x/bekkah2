@@ -15,7 +15,7 @@ import about from './about.png'
 import logo from "./3.png";
 import quotes from "./quotes.svg";
 import group from "./group.png";
-import robot from "./hero2.png";
+import robot from "./ai2.png";
 import project1 from "./cystad.png";
 import project2 from "./project2.png";
 import project3 from "./project3.png";
