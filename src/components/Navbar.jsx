@@ -15,7 +15,10 @@ const Navbar = () => {
 
   return (
     <nav id="nav" className="  bg-primary z-20 overflow-visible w-full fixed flex py-6  px-6 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+      <Link to={'/'}>
+        <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+      </Link>
+      
 
       <ul className="overflow-visible bg-primary z-10 list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (

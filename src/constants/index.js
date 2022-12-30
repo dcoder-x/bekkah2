@@ -317,8 +317,8 @@ export const footerLinks = [
         link: "/blog/",
       },
       {
-        name: "Media",
-        link: "/media",
+        name: "Gallery",
+        link: "/gallery",
       },
     ],
   },
@@ -327,11 +327,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partners",
-        link: "/partner/",
+        link: "/partners/",
       },
       {
         name: "Become a Partner",
-        link: "/partner/",
+        link: "/partners/",
       },
     ],
   },
