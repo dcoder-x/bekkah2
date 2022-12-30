@@ -16,6 +16,7 @@ import logo from "./3.png";
 import quotes from "./quotes.svg";
 import group from "./group.png";
 import robot from "./ai2.png";
+import blog from './blog.jpg'
 import project1 from "./cystad.png";
 import project2 from "./project2.png";
 import project3 from "./project3.png";
@@ -42,6 +43,7 @@ import people03 from "./people03.png";
 
 export {
   projectsbg,
+  blog,
   morelogo,
   classiclogo,
   dashlogo,

@@ -19,6 +19,11 @@ import {
   classiclogo,
   morelogo,
   dashlogo,
+  about,
+  partners,
+  contact,
+  bill,
+  card,
 } from "../assets";
 
 // I should organize this better
@@ -177,6 +182,50 @@ export const services = [
       "Social Media is a great conversion tool for your business and that’s why we have decided to help businesses and individuals achieve their goal of reaching prospects, converting them into customers and retaining them.",
   },
 ];
+
+export const blogData=[
+  {
+      title:'No fake news',
+      content:'',
+      img:about,
+      author:{
+          name:'Ayomikun Faluyi',
+          img:people01,
+          position:'Front End Developer'
+      }
+  },
+  {
+      title:'No fake news',
+      content:'',
+      img:partners,
+      author:{
+          name:'Ayomikun Faluyi',
+          img:people02,
+          position:'Front End Developer'
+      }
+  },
+  {
+      title:'No fake news',
+      content:'',
+      img:contact,
+      author:{
+          name:'Ayomikun Faluyi',
+          img:people03,
+          position:'Front End Developer'
+      }
+  },
+  {
+      title:'No fake news',
+      content:'',
+      img:bill,
+      author:{
+          name:'Ayomikun Faluyi',
+          img:people01,
+          position:'Front End Developer'
+      }
+  },
+  
+]
 
 export const feedback = [
   {

@@ -9,6 +9,9 @@ import Projects from './pages/Project';
 import { useEffect } from 'react';
 import Aos from 'aos';
 import Partners from './pages/Partners';
+import Blog from './pages/Blog';
+import Voting from './pages/Voting';
+import Gallery from './pages/Gallery';
 
 const App = () => {
   const { pathname } = useLocation();
@@ -24,11 +27,14 @@ const App = () => {
         <div className={'mt-20'}>
           <Routes>
             <Route index path='/' element={<Home/>} />
-            <Route index path='/about' element={<About/>} />
-            <Route index path='/services' element={<Services/>} />
-            <Route index path='/contact' element={<Contact/>} />
-            <Route index path='/projects' element={<Projects/>} />
-            <Route index path='/partners' element={<Partners/>} />
+            <Route  path='/about' element={<About/>} />
+            <Route  path='/services' element={<Services/>} />
+            <Route  path='/contact' element={<Contact/>} />
+            <Route  path='/projects' element={<Projects/>} />
+            <Route  path='/partners' element={<Partners/>} />
+            <Route  path='/blog' element={<Blog/>} />
+            <Route  path='/voting' element={<Voting/>} />
+            <Route  path='/gallery' element={<Gallery/>} />
           </Routes>
         </div>
 
