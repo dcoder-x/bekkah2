@@ -40,6 +40,7 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import millenialLogo from './MILogo.gif'
 
 export {
   projectsbg,
@@ -63,6 +64,7 @@ export {
   dropbox,
   logo,
   bg,
+  millenialLogo,
   contact,
   aboutus,
   quotes,

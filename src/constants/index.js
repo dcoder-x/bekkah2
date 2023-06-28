@@ -24,6 +24,7 @@ import {
   contact,
   bill,
   card,
+  millenialLogo,
 } from "../assets";
 
 // I should organize this better
@@ -48,20 +49,20 @@ export const navLinks = [
     link: "/projects",
     title: "Projects",
   },
-  {
-    link: "/media",
-    title: "Media",
-    sublinks:[
-      {
-          name:'Blog',
-          link:'/blog',
-      },
-      {
-          name:'Gallery',
-          link:'/gallery',
-      },
-  ]
-  },
+  // {
+  //   link: "/media",
+  //   title: "Media",
+  //   sublinks:[
+  //     // {
+  //     //     name:'Blog',
+  //     //     link:'/blog',
+  //     // },
+  //     {
+  //         name:'Gallery',
+  //         link:'/gallery',
+  //     },
+  // ]
+  // },
   {
     link: "/voting",
     title: "Voting",
@@ -125,18 +126,18 @@ export const contacts = [
   {
     icon: "material-symbols:perm-phone-msg",
     title: "Phone",
-    contact: "+234 70657578",
+    contact: "+233 57 433 2564",
   },
   {
     icon: "ic:round-mail-outline",
     title: "E-mail",
     contact: "Info@bekkah.io",
   },
-  {
-    icon: "material-symbols:location-on-rounded",
-    title: "Address",
-    contact: "Lagos, Nigeria",
-  },
+  // {
+  //   icon: "material-symbols:location-on-rounded",
+  //   title: "Address",
+  //   contact: "Lagos, Nigeria",
+  // },
 ];
 export const services = [
   {
@@ -149,7 +150,7 @@ export const services = [
   {
     id: "feature-1",
     icon: "carbon:application-mobile",
-    title: "Mobile development",
+    title: "Web/Mobile Application Dev",
     content:
       "Web and Mobile Application development. Do you have any idea that needs an application, either web based or mobile talk to us today. With over 40years cumulative experience in the tech space we will turn that idea into a reality in no time.",
   },
@@ -157,6 +158,20 @@ export const services = [
     id: "feature-2",
     icon: "icon-park-twotone:blockchain",
     title: "Block chain development",
+    content:
+      "After conquering the Web2 space we stated honing our skills for the future of the internet which is web3. It will be a great pleasure for us to help you create applications powered by blockchain.",
+  },
+  {
+    id: "feature-2",
+    icon: "eos-icons:ai",
+    title: "Artificial Intelligence Application Integration and development",
+    content:
+      "After conquering the Web2 space we stated honing our skills for the future of the internet which is web3. It will be a great pleasure for us to help you create applications powered by blockchain.",
+  },
+  {
+    id: "feature-2",
+    icon: "majesticons:data",
+    title: "Data analysis and Management",
     content:
       "After conquering the Web2 space we stated honing our skills for the future of the internet which is web3. It will be a great pleasure for us to help you create applications powered by blockchain.",
   },
@@ -398,6 +413,13 @@ export const partnersinfo = [
       desc:'',
       logo:dashlogo,
       website:'http://dashdeliverieslib.com/'
+    },
+    
+    {
+      name:'Millenial Informatics',
+      desc:'',
+      logo:millenialLogo,
+      website:'https://millennialinformatics.com/'
     },
     // {
     //   name:'Classic Empire',

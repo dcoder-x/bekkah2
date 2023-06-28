@@ -18,10 +18,8 @@ const Services = () => {
         <p
           className={` w-3/4 text-black font-light sm:w-1/3 text-center font-poppins  text-xs my-1`}
         >
-          Replace this with “ We provide services for both individuals and
-          Organizations. These services includes but are not limited to:There
-          are many variations of passages of Lorem Ipsum available, but the
-          majority have suffered alteration.
+          We provide services for both individuals and
+          Organizations. These services includes but are not limited to:
         </p>
         <div
           className={`services-list ${styles.flexCenter} w-full lg:w-2/3 flex-col sm:flex-row justify-between flex-wrap`}
