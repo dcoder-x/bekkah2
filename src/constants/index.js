@@ -325,14 +325,14 @@ export const footerLinks = [
         name: "Contact us",
         link: "/contact",
       },
-      {
-        name: "Blog",
-        link: "/blog/",
-      },
-      {
-        name: "Gallery",
-        link: "/gallery",
-      },
+      // {
+      //   name: "Blog",
+      //   link: "/blog/",
+      // },
+      // {
+      //   name: "Gallery",
+      //   link: "/gallery",
+      // },
     ],
   },
   {
