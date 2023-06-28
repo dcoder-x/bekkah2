@@ -165,15 +165,13 @@ export const services = [
     id: "feature-2",
     icon: "eos-icons:ai",
     title: "Artificial Intelligence Application Integration and development",
-    content:
-      "After conquering the Web2 space we stated honing our skills for the future of the internet which is web3. It will be a great pleasure for us to help you create applications powered by blockchain.",
+    content:''
   },
   {
     id: "feature-2",
     icon: "majesticons:data",
     title: "Data analysis and Management",
-    content:
-      "After conquering the Web2 space we stated honing our skills for the future of the internet which is web3. It will be a great pleasure for us to help you create applications powered by blockchain.",
+    content:''
   },
   {
     id: "feature-3",
